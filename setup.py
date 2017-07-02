@@ -1,7 +1,4 @@
 import setuptools
-import pypandoc
-
-long_description = pypandoc.convert('README.md', 'rst')
 
 setuptools.setup(
     name='bellmanford',
@@ -10,7 +7,6 @@ setuptools.setup(
         Small extensions of the Bellman-Ford routines in NetworkX, primarily
         for convenience (https://networkx.github.io).
     ''',
-    long_description=long_description,
     url='https://github.com/nelsonuhan/bellmanford',
     author='Nelson Uhan',
     author_email='nelson@uhan.me',
